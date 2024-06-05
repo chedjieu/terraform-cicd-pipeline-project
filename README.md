@@ -13,7 +13,7 @@
     - Login to `Your GitHub Account`
     - Create a Repository called `Terraform-CICD-Pipeline-Project`
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"Main branch"`: https://github.com/awanmbandi/realworld-cicd-pipeline-project.git
+    - Download the code in in this repository `"Main branch"`: https://github.com/chedjieu/realworld-cicd-pipeline-project.git
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
@@ -22,12 +22,12 @@
         - Commit changes: `git commit -m "adding project source code"`
         - Push to GitHub: `git push`
     - Confirm that the code is now available on GitHub as shown below...
-    ![ProjectRepositoryCode!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/zdocs/images/dsdsdsdgdghhgjkyutyrtegdgdr.png)
+    ![ProjectRepositoryCode!](https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/zdocs/images/dsdsdsdgdghhgjkyutyrtegdgdr.png)
 
 2) Create An IAM Profile/Role For The Jenkins Environment
 - Create an EC2 Service Role in IAM with `AdministratorAccess` Privilege 
 - Navigate to IAM
-![IAM!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/zdocs/images/Screen%20Shot%202023-10-03%20at%206.20.44%20PM.png)
+![IAM!](https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/zdocs/images/Screen%20Shot%202023-10-03%20at%206.20.44%20PM.png)
     - Click on `Roles`
     - Click on `Create Role`
     - Select `Service Role`
@@ -46,7 +46,7 @@
     - Key pair: `Select` or `create a new keypair`
     - Security Group (Edit/Open): `8080` and `22` to `0.0.0.0/0`
     - IAM instance profile: Select the `AWS-AdministratorAccess-Role`
-    - User data (Copy the following user data): https://github.com/awanmbandi/realworld-cicd-pipeline-project/blob/terraform-jenkins-cicd-pipeline-project/installations/jenkins-install.sh
+    - User data (Copy the following user data): https://github.com/chedjieu/realworld-cicd-pipeline-project/blob/terraform-jenkins-cicd-pipeline-project/installations/jenkins-install.sh
     - Launch Instance
 
 4) Slack 
@@ -63,7 +63,7 @@
       - Click `Add Jenkins CI Integration`
       - Scrol Down and Click `SAVE SETTINGS/CONFIGURATIONS`
       - Leave this page open
-      ![SlackConfig!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/raw/zdocs/images/Screen%20Shot%202023-04-26%20at%202.08.55%20PM.png)
+      ![SlackConfig!](https://github.com/chedjieu/realworld-cicd-pipeline-project/raw/zdocs/images/Screen%20Shot%202023-04-26%20at%202.08.55%20PM.png)
 
 5) Install Plugins
 - Snyk 
